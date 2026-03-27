@@ -1,0 +1,1 @@
+CUDA_VISIBLE_DEVICES=0,4,6,7 nohup bash run_zh.sh > "log_$(date +%Y%m%d_%H%M%S).log" 2>&1 &
