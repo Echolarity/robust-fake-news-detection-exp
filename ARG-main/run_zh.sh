@@ -7,7 +7,7 @@
 #     --language ch \
 #     --root_path data/rewrite \
 #     --batchsize 32 \
-#     --bert_path /root/sunyuqi/fakenews/models/chinese-bert-wwm-ext \
+#     --bert_path ../models/chinese-bert-wwm-ext \
 #     --data_name zh-arg \
 #     --data_type rationale \
 #     --rationale_usefulness_evaluator_weight 2.2 \
@@ -21,7 +21,7 @@ python main.py \
     --model_name ARG-D \
     --language ch \
     --root_path data/rewrite  \
-    --bert_path /root/sunyuqi/fakenews/models/chinese-bert-wwm-ext \
+    --bert_path ../models/chinese-bert-wwm-ext \
     --data_name zh-argd \
     --data_type rationale \
     --rationale_usefulness_evaluator_weight 2.2 \
